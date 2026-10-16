@@ -1,0 +1,70 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #374e79, #8c95a0);
+}
+
+.tarjeta {
+    background-color: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    border-radius: 20px;
+    border: 2px solid #5b8def;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #5c81ab;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    line-height: 1.7;
+}
+
+h2 {
+    color: #4169e1;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+ul {
+    text-align: left;
+    line-height: 2;
+    padding-left: 25px;
+    color: #333;
+}
+
+button {
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #243b55;
+}
+
+#mensaje {
+    color: #243b55;
+    font-weight: bold;
+    margin-top: 18px;
+}
